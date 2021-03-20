@@ -735,7 +735,10 @@ footer i {
   color: #ff0000;
   }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 800px) {
+  .content-right {
+    flex: 1;
+    }
   .hero .text {
     left: 20px;
     right: 20px;
@@ -765,6 +768,9 @@ footer i {
   }
 
 @media screen and (max-width: 768px) {
+  .content-right {
+    flex: 1;
+    }
   .hero .text {
     left: 20px;
     right: 20px;
@@ -786,6 +792,10 @@ footer i {
   }
 
 @media screen and (max-width: 576px) {
+  .content-right {
+    flex: 1;
+    }
+
   .hero .text h1 {
     font-size: 34px;
     }
@@ -842,8 +852,12 @@ footer i {
   overflow: hidden;
   }
 
-.content-left, .content-right {
+.content-left {
   flex: 1;
+  }
+
+.content-right {
+  flex: 0.4;
   }
 
 .content-left {
