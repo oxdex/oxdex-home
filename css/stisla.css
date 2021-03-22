@@ -840,6 +840,7 @@ footer i {
 .main-content {
   padding-top: 100px;
   width: 100%;
+  min-height: 100%;
   }
 
 .content-wrap {
