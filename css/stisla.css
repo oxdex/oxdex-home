@@ -840,6 +840,7 @@ footer i {
 .main-content {
   padding-top: 100px;
   width: 100%;
+  min-height: 100%;
   }
 
 .content-wrap {
@@ -983,4 +984,32 @@ footer i {
 .footer .container .list .list-item {
   width: 24px;
   cursor: pointer;
+  }
+
+.ox-icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  }
+
+.ox-icon-tel {
+  background-image: url("../img/tel.png");
+  }
+
+.ox-icon-twitter {
+  background-image: url("../img/twitter.png");
+  }
+
+.ox-icon-github {
+  background-image: url("../img/github.png");
+  }
+
+.ox-icon-me {
+  background-image: url("../img/me.png");
+  }
+
+.list-item + .list-item {
+  margin-left: 20px;
   }
