@@ -838,6 +838,9 @@ footer i {
 
 
 .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-top: 100px;
   width: 100%;
   min-height: 100%;
